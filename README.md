@@ -3,7 +3,11 @@ Prevent Clash Verge rev on macOS from modifying system DNS when TUN&amp;Fake-IP 
 
 Usage:
 ```bash
-./clash-verge-disable-system-dns.sh status
+chmod +x clash-verge-disable-system-dns.sh
 sudo ./clash-verge-disable-system-dns.sh install
+```
+
+If restore needed:
+```bash
 sudo ./clash-verge-disable-system-dns.sh restore
 ```
